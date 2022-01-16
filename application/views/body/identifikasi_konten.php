@@ -3,13 +3,16 @@
     <div class="bodyhead"> </div>
 </div>
 
-<video id="myVideo" width="320" height="176" class="d-none">
-  <source src="<?= base_url()?>indopride/indopride4(konten).mp4" type="video/mp4">
-</video>
+<div class="m-3 text-white">
+  <p> 
+      Berita Yang Benar Biasanya Ditulis
+      Secara Santun, Kontennya Jelas Dan Mudah Untuk Dimengerti Oleh Para Pembaca, Ini
+      Juga Menjadi Sebuah Gambaran Apabila Konten Berita Tidak Jelas Cara Menulis Dan
+      Menyampaikannya Ke Masyarakat Dapat Dipastikan Berita Tersebut Tidak Dibuat Oleh Orang Yang Bertanggung Jawab Dan Dapat Dipastikan Berita Tersebut Palsu, Sehingga Masyarakat Perlu Menghindari Konten Yang Demikian.
+  </p>
+</div>
 
-<div class="d-grid gap-2 m-3">
-<button type="button" onclick="playmateri1()" class="btn btn-light rounded-pill mb-2">Putar Suara Materi</button>
+<div class="d-grid gap-2 m-3 pt-5">
   <a href="<?= site_url('Welcome/materi_pembelajaran')?>" class="btn btn-light rounded-pill mb-2" type="button">Memilih Materi Pembelajaran Lain</a>
   <a href="<?= site_url('Welcome/')?>" class="btn btn-light rounded-pill mb-2" type="button">Kembali Ke Halaman Utama</a>
-
 </div>
